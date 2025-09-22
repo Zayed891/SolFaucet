@@ -14,7 +14,7 @@ import { LAMPORTS_PER_SOL } from "@solana/web3.js";
     }
 
     return <div className="flex flex-col justify-center items-center min-h-screen -my-32 gap-4 text-white">
-        <input type="text" name="" placeholder="amount" id="inp" className="px-2 border-none rounded-md shadow-lg bg-white text-black"/>
-        <button className="bg-indigo-500 shadow-lg rounded-md w-26 h-8" onClick={requestAirdrop}>Airdrop Sol</button>
+        <input type="text" name="" placeholder="amount" id="inp" className="px-2 py-2 border-none rounded-md shadow-lg bg-white text-black w-64"/>
+        <button className="bg-indigo-500 shadow-lg rounded-md w-26 h-8 cursor-pointer" onClick={requestAirdrop}>Airdrop Sol</button>
     </div>
  }

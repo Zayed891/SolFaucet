@@ -24,8 +24,8 @@ export function SendToken(){
     }
 
     return <div className="flex flex-col justify-center items-center -my-62 gap-4 text-white">
-        <input type="text" name="" placeholder="to" id="to" className="px-2 border-none rounded-md shadow-lg bg-white text-black"/>
-        <input type="text" name="" id="amount" placeholder="amount" className="px-2 border-none rounded-md shadow-lg bg-white text-black"/>
-        <button onClick={transferSol} className="bg-indigo-500 shadow-lg rounded-md w-26 h-8">Send</button>
+        <input type="text" name="" placeholder="to" id="to" className="px-2 py-2 border-none rounded-md shadow-lg bg-white text-black w-64"/>
+        <input type="text" name="" id="amount" placeholder="amount" className="px-2 py-2 border-none rounded-md shadow-lg bg-white text-black w-64"/>
+        <button onClick={transferSol} className="bg-indigo-500 shadow-lg rounded-md w-26 h-8 cursor-pointer">Send Token</button>
     </div>
 }
